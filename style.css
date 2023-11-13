@@ -1,0 +1,220 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    background-color:#FEFFE3;
+}
+.nav{
+    width:90%;
+    height: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    margin:10px;
+    padding:5px;
+    padding-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 35px;
+    background: linear-gradient(45deg, rgb(255, 244.8, 0) 0.69%, rgb(37, 110, 255) 50.42%, rgb(5.48, 3.33, 110.91) 100%);
+}
+.toggle{
+    display: none;
+}
+.name{
+    margin:5px;
+    background: linear-gradient(340deg, rgb(172 154 1) 5%, rgb(7.39, 2.34, 255) 95%);
+-webkit-background-clip: text !important;
+background-clip: text;
+-webkit-text-fill-color: transparent;
+
+}
+.teamname{
+    flex:1;
+    display: flex;
+    align-items: center;
+    justify-content:flex-start;
+}
+.links{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-family: Helvetica;
+    font-weight: 400;
+    font-size: 20px;
+}
+a{
+    text-decoration: none;
+    color: #ffffff;
+}
+a:hover{
+ color:rgb(0, 255, 0);
+}
+.main1{
+    display: flex;
+    width:80%;
+    height:auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom:20px;
+    justify-content: center;
+    align-items: center;
+}
+.main3{
+    display: flex;
+    width:70%;
+    height:auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom:20px;
+    justify-content: center;
+    align-items: center;
+}
+.left{
+    flex:2;
+}
+.right{
+    flex:1;
+    display: flex;
+    justify-content: center; align-items: center;
+    margin-top: 20px;
+
+}
+.font1{
+    font-family: Georgia, serif;
+    text-transform: uppercase;
+	background:linear-gradient(360deg, rgb(66.3, 0, 255) 0%, rgb(234.6, 255, 0) 45.88%, rgb(0, 255, 10.2) 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+    font-size:xx-large;
+    text-align: center;
+}
+.font2{
+    font-size:30px;
+    font-family: Georgia, serif;
+    text-transform: uppercase;
+	background:linear-gradient(360deg, rgb(66.3, 0, 255) 0%, rgb(234.6, 255, 0) 45.88%, rgb(0, 255, 10.2) 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+    font-size:xx-large;
+}
+p{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: large;
+    padding:10px;
+    padding-top: 0;
+    font-weight: 500;
+    margin-bottom: 0%;
+    padding-bottom: 0%;
+}
+.right2{
+    display: flex;
+    flex-direction: column;
+
+}
+.yellow{
+    margin: 10px;
+    display: inline;
+    margin-left: 1rem;
+    color: dodgerblue;
+    font-size:20px;
+}
+.para1{
+    margin: 0;
+    margin-top:2px;
+}
+.main2{
+    display: flex;
+    width:80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom:20px;
+    justify-content: center;
+    align-items: center;
+}
+.tshirt{
+    margin:3px;
+     border-radius: 7px;
+    }
+.image1:hover{
+    transform: scale(1.1);
+}
+.tshirt:hover{
+    transform: scale(1.1);
+
+}
+@media only screen and (max-width: 850px){
+.nav{
+    display:none;
+}
+.toggle{
+    display: block;
+}
+
+}
+.cardss{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.cards:hover{
+    transform: scale(1.1);
+}
+td{
+    padding: 10px;
+    border-radius: 10px;
+}
+@media only screen and (max-width: 900px){
+    .islrank img{
+        width:350px;
+        height:350px;
+    }
+    .main3{
+        display: flex;
+        width:80%;
+        height:auto;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom:20px;
+        justify-content: center;
+        align-items: center;
+    }
+    td img{
+        width:70%;
+    }
+    .four{
+   width:80%;
+    }
+    .six{
+        width: 100%;
+    }
+    .eight{
+        width: 95%;
+    }
+    .two{
+        width: 60%;
+    }
+    .para1{
+        font-size:15px;
+    }
+}
+.inner{
+    width:60%;
+}
+.inner2{
+    width: 70%;
+}
+.inner3{
+    width: 40%;
+}
+.rounded:hover{
+    transform: scale(1.1);
+}
+.fixed-top{
+    top: 0;
+}
+.section{
+  margin-top:70px;
+}
